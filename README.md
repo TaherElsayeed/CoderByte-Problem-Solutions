@@ -35,7 +35,7 @@ This repository contains the code that I wrote to answer different CoderByte que
 2. That's it.
 ---
 ## General Instructions
-1. Run the code as you would for any other project. Since all of the solutions have a function that launches a function upon opening there should be no worries as to writing custom starter functions.
+1. Run the code as you would for any other project. Since all of the solutions have code that launches a function upon opening there should be no worries as to writing custom starter functions.
 ---
 ## Command Line Flags
 * There are none
