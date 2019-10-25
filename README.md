@@ -16,7 +16,7 @@
 
 - **Website: https://nicholassynovic.github.io/**
 
-- **Program Licensed under [GNU AFFERO GENERAL PUBLIC LICENSE v3](https://choosealicense.com/licenses/agpl-3.0/). See my [LICENSE.md](LICENSE.md) for more information.**
+- **Program licensed under [GNU AFFERO GENERAL PUBLIC LICENSE v3](https://choosealicense.com/licenses/agpl-3.0/). See my [LICENSE.md](LICENSE.md) for more information.**
 
 ---
 ## About
