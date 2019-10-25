@@ -50,10 +50,11 @@ This repository contains the code that I wrote to answer different CoderByte que
 * Kaprekars Constant
 * Chessboard Traveling
 * Maximal Square
-* Pentagonal Number
 ---
 ## Future Features List
 * Complete more problems
 * Add solutions from other programming languages outside of Python 3
 * Add more efficent versions of my responses
 * Add more information about the problem in the code or in a problem specific README.md
+* Write out a proper proof for Pentagonal Numbers
+* Write out a recursive solution for Pentagonal Numbers
