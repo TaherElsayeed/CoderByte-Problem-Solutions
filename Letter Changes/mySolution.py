@@ -6,22 +6,22 @@
 
 def LetterChanges(str):
 
-	# code goes here
-	vowles = ["a", "e", "i", "o", "u"]	# List of vowels
+	# 	code goes here
+	vowles = ["a", "e", "i", "o", "u"]	# 	List of vowels
 
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
 	alphabetArray = []
-	for x in range(len(alphabet)):	# Creates a list from the alphabet
+	for x in range(len(alphabet)):	# 	Creates a list from the alphabet
 		alphabetArray.append(alphabet[x])
 
 	data = []
 
-	for x in range(len(str)):	# Converts the arguement into a list of chars
+	for x in range(len(str)):	# 	Converts the arguement into a list of chars
 		data.append(str[x])
 
 	newData = []
 	
-	for x in data:	# Change the order of letters to suit the needs of the problem
+	for x in data:	# 	Change the order of letters to suit the needs of the problem
 		if x.isalpha():
 			for y in range(len(alphabetArray)):
 				if x == alphabetArray[y]:
@@ -34,12 +34,12 @@ def LetterChanges(str):
 		newData.append(x)
 
 
-	for x in range(len(newData)):	# Capitalize vowels
+	for x in range(len(newData)):	# 	Capitalize vowels
 		for y in vowles:
 			if newData[x] == y:
 				newData[x] = newData[x].upper()
 
-	return ''.join(newData)	# Return a string of the all the chars
+	return ''.join(newData)	# 	Return a string of the all the chars
 
-# keep this function call here 
+# 	keep this function call here 
 print(LetterChanges(input()))
