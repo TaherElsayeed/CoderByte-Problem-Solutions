@@ -43,3 +43,6 @@ This repository contains the code that I wrote to answer different CoderByte que
 ## Future Features List
 * Complete more problems
 * Add solutions from other programming languages outside of Python 3
+* Add coments to code to explain my thinking
+* Add more efficent versions of my responses
+* Add more information about the problem in the code or in a problem specific README.md
