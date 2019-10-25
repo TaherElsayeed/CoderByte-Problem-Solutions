@@ -5,7 +5,6 @@
 - ***[Features List](#features-list)***
 - ***[Installation Instructions](#installation-instructions)***
 - ***[General Instructions](#general-instructions)***
-- ***[Command Line Flags](#command-line-flags)***
 - ***[Future Features List](#future-features-list)***
 ---
 ## License Information
@@ -36,9 +35,6 @@ This repository contains the code that I wrote to answer different CoderByte que
 ---
 ## General Instructions
 1. Run the code as you would for any other project. Since all of the solutions have code that launches a function upon opening there should be no worries as to writing custom starter functions.
----
-## Command Line Flags
-* There are none
 ---
 ## Future Features List
 * Complete more problems
