@@ -5,12 +5,14 @@
 
 def CheckNums(num1,num2):
 
-	# code goes here
+	#	Code goes here
 	if num1 < num2:
 		return True
+	
 	if num1 > num2:
 		return False
+	
 	return -1
 
-# keep this function call here 
-print(CheckNums(input()))
+#	Keep this function call here 
+print(CheckNums(input(),input()))

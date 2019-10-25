@@ -6,13 +6,13 @@
 
 def SimpleAdding(num):
 
-	# code goes here
+	# Code goes here
 	data = []
 	
 	for x in range(num):	#	Generates a list of every number from 0 to the arguement including the arguement
 		data.append(x)
+	
 	data.append(num)
-
 	sum = 0
 	
 	for x in data:	#	Adds all of the values in the list of every number
@@ -20,5 +20,5 @@ def SimpleAdding(num):
 	
 	return sum
 
-# keep this function call here 
+# Keep this function call here 
 print(SimpleAdding(input()))

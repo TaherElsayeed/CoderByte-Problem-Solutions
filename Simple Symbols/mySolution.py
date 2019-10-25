@@ -6,7 +6,7 @@
 
 def SimpleSymbols(str):
 
-	# code goes here
+	# Code goes here
 	response = "false"	#	False code
 	
 	for x in range(len(str)):	#	Determines if a letter does not have plus signs around it (returns response if so)
@@ -24,5 +24,5 @@ def SimpleSymbols(str):
 	
 	return "true"	#	The desired response code
 
-# keep this function call here 
+# Keep this function call here 
 print(SimpleSymbols(input()))

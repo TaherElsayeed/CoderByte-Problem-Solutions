@@ -6,11 +6,12 @@
 
 def LetterChanges(str):
 
-	# 	code goes here
+	# Code goes here
 	vowles = ["a", "e", "i", "o", "u"]	# 	List of vowels
 
 	alphabet = "abcdefghijklmnopqrstuvwxyz"
 	alphabetArray = []
+	
 	for x in range(len(alphabet)):	# 	Creates a list from the alphabet
 		alphabetArray.append(alphabet[x])
 
@@ -41,5 +42,5 @@ def LetterChanges(str):
 
 	return ''.join(newData)	# 	Return a string of the all the chars
 
-# 	keep this function call here 
+# 	Keep this function call here 
 print(LetterChanges(input()))

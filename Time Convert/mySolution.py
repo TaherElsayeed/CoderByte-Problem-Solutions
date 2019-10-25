@@ -5,12 +5,13 @@
 
 def TimeConvert(num):
 
-	# code goes here
+	# Code goes here
 	hours = 0
 	minutes = 0
 	hours = num // 60	#	Floor division
 	minutes = num % 60	#	Mod operation
+	
 	return str(hours) + ":" + str(minutes)
 
-# keep this function call here 
+# Keep this function call here 
 print(TimeConvert(input()))

@@ -7,15 +7,17 @@
 
 def LongestWord(sen):
 
-	# code goes here
+	# Code goes here
 	data = sen.split()
 	wordData = []
 	
 	for x in data:	# Retrieves only the alphanumeric values from the arguement
 		foo = []
+	
 		for y in range(len(x)):
 			if x[y].isalnum():
 				foo.append(x[y])
+	
 		wordData.append(''.join(foo))
 
 	max = 0
@@ -24,9 +26,10 @@ def LongestWord(sen):
 	for x in range(len(wordData)):	# Compare the strings in the list and store the index that holds the longest string
 		if max < len(wordData[x]):
 			max = len(wordData[x])
+	
 		index = x
 
 	return wordData[index]	# Return the longest string
 
-# keep this function call here 
+# Keep this function call here 
 print(LongestWord(input()))

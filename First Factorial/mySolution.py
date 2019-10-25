@@ -6,19 +6,22 @@
 
 def FirstFactorial(num):
 
-	# code goes here
+	#	Code goes here
 	data = []
+	
 	for x in range(num):	#	Creates a list of every number from 1 to the arguement
 		if x == 0:
 			pass
 		else:
 			data.append(x)
+	
 	data.append(num)
-
 	product = 1
+	
 	for x in data:	# 	Multiples every number in the list together
 		product *= x
+	
 	return product	# 	Returns the factorial of the arguement
 
-# keep this function call here 
+#	Keep this function call here 
 print(FirstFactorial(input()))
