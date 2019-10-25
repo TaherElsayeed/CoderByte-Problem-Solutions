@@ -1,4 +1,4 @@
-#	Problem URL: https://coderbyte.com/information/Alphabet%20Soup
+#	Problem URL: https://coderbyte.com/editor/Alphabet%20Soup:Python3
 #	Question:
 #	Have the function AlphabetSoup(str) take the str string parameter being passed and return the string with the letters in
 #	alphabetical order (ie. hello becomes ehllo). Assume numbers and punctuation symbols will not be included in the string.
