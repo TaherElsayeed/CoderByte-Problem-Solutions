@@ -5,6 +5,7 @@
 - ***[Features List](#features-list)***
 - ***[Installation Instructions](#installation-instructions)***
 - ***[General Instructions](#general-instructions)***
+- ***[Unsolved Problems](#unsolved-problems)***
 - ***[Future Features List](#future-features-list)***
 ---
 ## License Information
@@ -24,6 +25,8 @@ This repository contains the code that I wrote to answer different CoderByte que
 ---
 ## Features List
 * Contains the code for different CoderByte problems
+* Each question solution is located in it's own directory
+  * Each directory is titled after the correspondign question name
 
 ---
 ## Installation Instructions
@@ -35,6 +38,19 @@ This repository contains the code that I wrote to answer different CoderByte que
 ---
 ## General Instructions
 1. Run the code as you would for any other project. Since all of the solutions have code that launches a function upon opening there should be no worries as to writing custom starter functions
+---
+## Unsolved Problems
+#### All of these problems are from the free problem set:
+* Correct Path
+* Scale Balancing
+* Vowel Square
+* Closest Enemy 2
+* Questions Marks
+* Eight Queens
+* Kaprekars Constant
+* Chessboard Traveling
+* Maximal Square
+* Pentagonal Number
 ---
 ## Future Features List
 * Complete more problems
