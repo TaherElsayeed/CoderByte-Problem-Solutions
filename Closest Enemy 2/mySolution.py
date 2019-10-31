@@ -8,7 +8,8 @@ class ClosestEnemyII:
         self.startingY = None   # This will hold the y coordinate of 1
         self.twoCoordinates = None
         self.oneCoordinates = None
-        
+        self.shortestCoordinates = None
+
         temp = []
         for x in range(len(strArr)):
             if x == 0:
@@ -35,12 +36,15 @@ class ClosestEnemyII:
             for bar in range(len(self.strArr[foo])):
                 if self.strArr[foo][bar] == "2":
                     temp.append((bar, foo))
+        if temp == []:
+            quit(0)
         self.twoCoordinates = temp
         return self.twoCoordinates
 
     def hypotenuse(self, a:int, b:int):
         return sqrt(a ** 2 + b **2)
     
+    # findShortestHypotenuse is a helper function for calculate
     def findShortestHypotenuse(self):
         self.getOneCoordinates()
         self.getTwoCoordinates()
@@ -50,19 +54,17 @@ class ClosestEnemyII:
             b = abs(self.oneCoordinates[0][1] - foo[1])
             temp.append((foo, self.hypotenuse(a, b)))
         
-        shortestCoordinates = (temp[0][0], temp[0][1])
-
-        print(shortestCoordinates)
+        self.shortestCoordinates = [(temp[0][0], temp[0][1])]
 
         for bar in temp:
-            if bar[1] < shortestCoordinates[1]:
-                shortestCoordinates = (bar[0], bar[1])
-
-        print(shortestCoordinates)
-
-    # def ClosestEnemyII(self):
+            if bar[1] < self.shortestCoordinates[0][1]:
+                self.shortestCoordinates = [(bar[0], bar[1])]
         
+        return self.shortestCoordinates
 
-
-# keep this function call here 
-print(type(ClosestEnemyII(["1000", "0000", "0000", "0002"]).findShortestHypotenuse()))
+    # Calculate is the only function in this class that will output a desired result
+    def calculate(self):
+        self.findShortestHypotenuse()
+        xSteps = abs(self.oneCoordinates[0][0] - self.shortestCoordinates[0][0][0])
+        ySteps = abs(self.oneCoordinates[0][1] - self.shortestCoordinates[0][0][1])
+        return xSteps + ySteps
