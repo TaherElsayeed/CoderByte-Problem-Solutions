@@ -44,7 +44,6 @@ This repository contains the code that I wrote to answer different CoderByte que
 * Correct Path
 * Scale Balancing
 * Vowel Square
-* Closest Enemy 2
 * Questions Marks
 * Eight Queens
 * Kaprekars Constant
